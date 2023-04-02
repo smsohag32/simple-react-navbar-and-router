@@ -6,7 +6,7 @@ const PriceCard = ({ price }) => {
   return (
     <div className="bg-indigo-200 p-5 bg-opacity-60 flex flex-col rounded-md">
       <h1 className="text-4xl text-center text-purple-900 font-extrabold">
-        {price.price}
+        {price.price}$
         <span className="text-lg font-medium text-black">/mon</span>
       </h1>
       <h4 className="font-bold text-2xl text-center">{price.membershipType}</h4>
