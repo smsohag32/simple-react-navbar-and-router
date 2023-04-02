@@ -1,0 +1,27 @@
+[  {    "id": 1,    "membershipType": "Basic",    "price": 50,    "features": [      "Cardio Machines",      "Locker Room"    ]
+  },
+  {
+    "id": 2,
+    "membershipType": "Standard",
+    "price": 75,
+    "features": [
+      "Cardio Machines",
+      "Group Fitness Classes",
+      "Locker Room",
+      "Sauna"
+    ]
+  },
+  {
+    "id": 3,
+    "membershipType": "Premium",
+    "price": 100,
+    "features": [
+      "Cardio Machines",
+      "Strength Training Equipment",
+      "Group Fitness Classes",
+      "Locker Room",
+      "Sauna",
+      "Towel Service"
+    ]
+  }
+]

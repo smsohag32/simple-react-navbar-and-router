@@ -1,12 +1,13 @@
 import "./App.css";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
+import PriceList from "./components/PriceList/PriceList";
 
 function App() {
   return (
-    <div className="bg-black text-white">
+    <div className="">
       <Navbar />
-      <Hero />
+      <PriceList />
     </div>
   );
 }
