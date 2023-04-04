@@ -1,4 +1,5 @@
 import "./App.css";
+import Animation from "./components/Animation/Animation";
 import Dashboard from "./components/Dashboard/Dashboard";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
@@ -12,6 +13,9 @@ function App() {
       <PriceList />
       <Dashboard />
       <PhoneBar />
+      <div className=" mx-auto">
+        <Animation></Animation>
+      </div>
     </div>
   );
 }
